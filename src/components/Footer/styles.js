@@ -11,10 +11,11 @@ export const StyledFooter = styled("footer", {
 	left: 0,
 	right: 0,
 	width: "100%",
+	height: "80px",
 	display: "flex",
 	justifyContent: "center",
 	alignItems: "center",
-	backgroundColor: "#000000",
+	backgroundColor: "#fff5",
 
 	"& #copy": {
 		textAlign: "center",

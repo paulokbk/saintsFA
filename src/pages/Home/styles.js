@@ -28,7 +28,7 @@ export const StyledHome = styled("div", {
 			marginBottom: "20px",
 		},
 		"p": {
-			fontSize: "1.32rem",
+			fontSize: "1.3rem",
 		},
 	},
 
@@ -58,13 +58,43 @@ export const StyledHome = styled("div", {
 		display: "flex",
 		justifyContent: "flex-start",
 		flexDirection: "column",
-		fontSize: "1.1rem",
 		color: "#000000",
+		"h1": {
+			marginBottom: "10px",
+		},
+		"p": {
+			fontSize: "1.3rem",
+		},
 	},
 
 	".content_image": {
 		width: "50%",
 		padding: "50px",
+	},
+
+	".button-about": {
+		width: "30%",
+		display: "flex",
+		justifyContent: "center",
+		alignItems: "center",
+		color: "#fff",
+		backgroundColor: "#000",
+		border: "none",
+		borderRadius: "5px",
+		fontFamily: "Empera",
+		fontSize: "1.2rem",
+		padding: "10px",
+		cursor: "pointer",
+		transition: "all 0.2s ease-in-out",
+		boxSizing: "border-box",
+		border: "1px solid #fff",
+		marginTop: "20px",
+
+		"&:hover": {
+			backgroundColor: "#fff",
+			color: "#000",
+			border: "1px solid #000",
+		}
 	},
 
 
@@ -80,6 +110,9 @@ export const StyledHome = styled("div", {
 			flexDirection: "column",
 			alignItems: "center",
 			height: "auto",
+		},
+		".button-about": {
+			width: "100%",
 		},
 	}
 

@@ -23,11 +23,11 @@ export default function Home() {
 
 							Lorem ipsum amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Saiba mais sobre nossa tragetória:
 						</p>
+						<button className="button-about">Nossa História</button>
 					</div>
-					<div className="content_image">
+					<div className="content_image_sobre">
 						<img src="assets/bandeira.png" alt="runner" />
 					</div>
-
 				</div>
 
 			</main>

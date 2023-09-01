@@ -13,7 +13,7 @@ export const StyledHome = styled("div", {
 		width: "100%",
 	},
 
-	".home_image":{
+	".home_image": {
 		width: "100vw",
 		height: "90vh",
 		backgroundImage: "url('/assets/image-1.png')",
@@ -22,11 +22,14 @@ export const StyledHome = styled("div", {
 		backgroundRepeat: "no-repeat",
 		display: "flex",
 		alignItems: "flex-end",
-        boxShadow: " inset -4px 6px 271px 129px rgba(0,0,0,0.75)",
+		boxShadow: " inset -4px 6px 271px 129px rgba(0,0,0,0.75)",
 
 		"h1": {
 			marginBottom: "20px",
-	},
+		},
+		"p": {
+			fontSize: "1.32rem",
+		},
 	},
 
 	".container": {
@@ -41,7 +44,7 @@ export const StyledHome = styled("div", {
 		},
 	},
 
-	".sobre":{
+	".sobre": {
 		width: "100%",
 		display: "flex",
 		justifyContent: "center",
@@ -59,7 +62,7 @@ export const StyledHome = styled("div", {
 		color: "#000000",
 	},
 
-	".content_image" : {
+	".content_image": {
 		width: "50%",
 		padding: "50px",
 	},
@@ -67,9 +70,15 @@ export const StyledHome = styled("div", {
 
 	"@media (max-width: 780px)": {
 
-		".sobre":{
+		".sobre": {
 			flexDirection: "column",
 			gap: "0",
+			height: "auto",
+		},
+		".home_image": {
+			display: "flex",
+			flexDirection: "column",
+			alignItems: "center",
 			height: "auto",
 		},
 	}

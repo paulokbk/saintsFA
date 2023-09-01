@@ -6,30 +6,37 @@ export default function Footer() {
 		<StyledFooter>
 			<div className="footer_superior">
 				<div className="logo">
-					<h1>Logo</h1>
+					<img src="./assets/logo.svg" alt="logo" />
 				</div>
+				<div className="line"></div>
 				<div className="modalidades">
-					<div>
-						fullpad masculino
+					<div className="categories">
+						<img className="category_icon" src="./assets/football.svg" alt="football" />
+						<span className="category_name">Fullpad Masculino</span>
 					</div>
-					<div>
-						flag feminino
+					<div className="categories">
+						<img className="category_icon" src="./assets/flag.svg" alt="football" />
+						<span className="category_name">Flag Masculino</span>
 					</div>
-					<div>
-						chearleader
+					<div className="categories">
+						<img className="category_icon" src="./assets/ballet_dancer.png" alt="football" />
+						<span className="category_name">Cheerleaders</span>
 					</div>
 				</div>
-				<div className="mais_info">
-					<div className="localizaçao">
-						goiania - go
+				<div className="mais_info modalidades">
+					<div className="categories">
+						<img className="category_icon" src="./assets/map_pin.svg" alt="football" />
+						<span className="category_name">Goiânia - GO</span>
 					</div>
-					<div className="instagram">
-						@saintsfa
+					<div className="categories">
+						<img className="category_icon" src="./assets/instagram.svg" alt="football" />
+						<span className="category_name">@saintsfa</span>
 					</div>
 				</div>
 			</div>
+			<div className="long_line"></div>
 			<div className="footer_inferior">
-
+				© Goiânia Saints Futebol Americano - Todos os direitos reservados.
 			</div>
 		</StyledFooter>
 	)

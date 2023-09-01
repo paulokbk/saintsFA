@@ -1,5 +1,12 @@
 @import "./pages/Home/styles.scss";
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@font-face {
+  font-family: 'Empera';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/empera.ttf);
+}
 
 :root {
   font-family: 'Bree Serif', serif;
@@ -9,7 +16,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url("/public/assets/background.png");
+  background-image: url("/assets/background.png");
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

@@ -6,35 +6,52 @@ export const StyledHeader = styled("header", {
 	left: 0,
 	right: 0,
 	width: "100%",
-	height: "80px",
 	display: "flex",
 	justifyContent: "center",
 	alignItems: "center",
-	backgroundColor: "#fff5",
+	backgroundColor: "#000",
+	paddingTop: "10px",
 
 	".headerContent": {
-		width: "80%",
-		maxWidth: "900px",
+		width: "90%",
 		display: "flex",
 		justifyContent: "space-between",
-		alignItems: "center"
+		alignItems: "center",
 	},
 	"nav.links": {
 		display: "flex",
 		gap: 20,
 
 		a: {
-			backgroundColor: "#5aeb73",
-			color: "#232323",
-			padding: "2px 15px",
-			borderRadius: "5px",
-			border: "1px solid #232323",
+			color: "rgba(248, 204, 4, 1)",
 			transition: "all 0.3s ease-out",
+			textDecoration: "none",
+			fontFamily: "Empera",
+			fontWeight: "bold",
+			fontSize: "22px",
 
 			"&:hover": {
-				backgroundColor: "#46b75a",
-				color: "#232323"
+				color: "white"
 			}
 		}
+	},
+
+	"@media (max-width: 780px)": {
+
+		".headerContent": {
+			justifyContent: "center",
+			flexDirection: "column",
+			gap: 20,
+			paddingBottom: "20px",
+		},
+
+		"nav.links" : {
+			gap: 40,
+			flexDirection: "column",
+			alignItems: "center",
+		}
 	}
+
+
+
 })

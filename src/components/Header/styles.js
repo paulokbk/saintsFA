@@ -1,7 +1,6 @@
 import { styled } from "@stitches/react"
 
 export const StyledHeader = styled("header", {
-	position: "fixed",
 	top: 0,
 	left: 0,
 	right: 0,
@@ -10,7 +9,7 @@ export const StyledHeader = styled("header", {
 	justifyContent: "center",
 	alignItems: "center",
 	backgroundColor: "#000",
-	paddingTop: "10px",
+	padding: "20px 0",
 
 	".headerContent": {
 		width: "90%",

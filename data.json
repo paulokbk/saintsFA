@@ -1,0 +1,60 @@
+{
+    "ContentHome":[
+        {
+            "title":"NOVIDADES",
+            "icon": "news.svg",
+            "images": [
+            "noticias(1).png",
+            "noticias(2).png",
+            "noticias(3).png",
+            "noticias(4).png"
+            ],
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nisi eget nunc ultricies aliquam. Sed vitae nisi eget nunc ultricies aliquam.",
+            "button":"NOTICIAS",
+            "link":"#",
+            "square": true
+        },
+        {
+            "title":"SAINTS NAS REDES",
+            "icon": "globe.svg",
+            "images": [
+                "post-1.png",
+                "post-2.png",
+                "post-3.png",
+                "post-4.png"
+                ],
+            "description":"",
+            "button":"VER PERFIL NO INSTAGRAM",
+            "link":"#",
+            "square": true
+        },
+        {
+            "title":"PRÓXIMOS JOGOS",
+            "icon": "calendar.svg",
+            "images": [
+            "go x flag.png",
+            "go x flag.png",
+            "go x flag.png",
+            "go x flag.png"
+            ],
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nisi eget nunc ultricies aliquam. Sed vitae nisi eget nunc ultricies aliquam.",
+            "button":"VER AGENDA COMPLETA",
+            "link":"#",
+            "square": true
+        }, 
+        {
+            "title":"NOSSOS PRODUTOS",
+            "icon": "shop-car.svg",
+            "images": [
+            "produto(1).png",
+            "produto(2).png",
+            "produto(3).png",
+            "produto(4).png"
+            ],
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nisi eget nunc ultricies aliquam. Sed vitae nisi eget nunc ultricies aliquam.",
+            "button":"CONFIRA",
+            "link":"#",
+            "square": false
+        }
+    ]
+}

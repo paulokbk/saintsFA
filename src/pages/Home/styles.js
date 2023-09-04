@@ -73,7 +73,7 @@ export const StyledHome = styled("div", {
 	},
 
 	".button-about": {
-		width: "30%",
+		width: "250px",
 		display: "flex",
 		justifyContent: "center",
 		alignItems: "center",
@@ -104,6 +104,7 @@ export const StyledHome = styled("div", {
 			flexDirection: "column",
 			gap: "0",
 			height: "auto",
+			marginBottom: "50px",
 		},
 		".home_image": {
 			display: "flex",

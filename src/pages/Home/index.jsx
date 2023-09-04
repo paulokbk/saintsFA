@@ -2,6 +2,8 @@ import React from "react"
 import Footer from "../../components/Footer"
 import Header from "../../components/Header"
 import { StyledHome } from "./styles"
+import ContentHome from "../../components/ContentHome"
+import data from "../../../data.json"
 
 export default function Home() {
 	return (
@@ -29,6 +31,21 @@ export default function Home() {
 						<img src="assets/bandeira.png" alt="runner" />
 					</div>
 				</div>
+			{
+				data.ContentHome.map((item, index) => {
+					return (
+						<ContentHome 
+						key={index}
+						title={item.title} 
+						images={item.images}
+						description={item.description}
+						button={item.button}
+						link={item.link}
+						icon={item.icon}
+						 />
+					)
+				})
+			}
 
 			</main>
 			<Footer />

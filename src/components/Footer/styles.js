@@ -16,7 +16,7 @@ export const StyledFooter = styled("footer", {
 	color: "#fff",
 	fontSize: "0.8rem",
 	textAlign: "center",
-	
+
 
 	"& #copy": {
 		textAlign: "center",
@@ -71,21 +71,21 @@ export const StyledFooter = styled("footer", {
 			}
 		}
 	},
-	
-	".line":{
+
+	".line": {
 		width: "400px",
 		height: "2px",
 		backgroundColor: "rgba(255, 255, 255, 0.19)",
 		margin: "0 auto",
 		marginBottom: "20px",
 	},
-	".long_line":{
+	".long_line": {
 		width: "100%",
 		height: "1px",
 		backgroundColor: "rgba(255, 255, 255, 0.19)",
 		margin: "10px",
 	},
-	".modalidades":{
+	".modalidades": {
 		display: "flex",
 		gap: "40px",
 		alignItems: "center",
@@ -96,29 +96,29 @@ export const StyledFooter = styled("footer", {
 		flexWrap: "wrap",
 	},
 
-	".categories":{
+	".categories": {
 		display: "flex",
 		alignItems: "center",
 		justifyContent: "center",
 		gap: "5px",
 	},
 
-	".category_icon":{
+	".category_icon": {
 		width: "18px",
 		height: "18px",
 	},
 
-	".category_name":{
+	".category_name": {
 		fontSize: "18px",
 		fontWeight: "bold",
 		color: "rgba(255, 255, 255, 0.7)",
 	},
 
-	".footer_inferior":{
+	".footer_inferior": {
 		color: "rgba(255, 255, 255, 0.5)",
 		fontSize: "14px",
 		fontWeight: "bold",
 		margin: "0 auto",
-	},	
+	},
 
 })

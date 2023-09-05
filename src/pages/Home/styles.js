@@ -16,7 +16,7 @@ export const StyledHome = styled("div", {
 	".home_image": {
 		width: "100vw",
 		height: "90vh",
-		backgroundImage: "url('/assets/image-1.png')",
+		backgroundImage: "url('assets/image-1.png')",
 		backgroundSize: "cover",
 		backgroundPosition: "center",
 		backgroundRepeat: "no-repeat",

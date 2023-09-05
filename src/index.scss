@@ -30,7 +30,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  background-image: url("/assets/background.png");
+  background-image: url('/assets/background.png');
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -75,7 +75,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    background-image: url("assets/background.png");
+    background-image: url('/assets/background.png');
   }
   a:hover {
     color: #747bff;

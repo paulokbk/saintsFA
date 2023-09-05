@@ -30,15 +30,19 @@ export const StyledContentHome = styled("div", {
 		display: "flex",
 		justifyContent: "center",
 		alignItems: "center",
-		gap: "20px",
+		gap: "10px",
 		color: "black",
-		fontSize: "2.5rem",
+		fontSize: "2.7rem",
 		fontFamily: "Empera",
 
 		"img":
 		{
-			width: "35px",
-			height: "35px",
+			width: "40px",
+			height: "40px",
+		},
+
+		"p": {
+			marginBottom: "0",
 		},
 
 	},
@@ -83,9 +87,6 @@ export const StyledContentHome = styled("div", {
 				height: "30px",
 			},
 
-			"p": {
-				marginBottom: "0",
-			},
 		},
 
 		".more_info_text": {

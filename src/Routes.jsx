@@ -6,7 +6,7 @@ import Home from "./pages/Home"
 
 export default function AppRoutes() {
 	return (
-		<BrowserRouter basename="/">
+		<BrowserRouter basename="/saintsFA">
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/sobre" element={<h1>sobre page</h1>} />

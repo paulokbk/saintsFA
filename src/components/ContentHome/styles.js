@@ -26,13 +26,13 @@ export const StyledContentHome = styled("div", {
 		backgroundColor: "black",
 	},
 
-	".title": {
+	".title-content-home": {
 		display: "flex",
 		justifyContent: "center",
 		alignItems: "center",
 		gap: "20px",
 		color: "black",
-		fontSize: "3rem",
+		fontSize: "2.5rem",
 		fontFamily: "Empera",
 
 		"img":
@@ -73,14 +73,23 @@ export const StyledContentHome = styled("div", {
 		height: "auto",
 
 
-		".title": {
-			fontSize: "2.1rem",
+		".title-content-home": {
+			fontSize: "2.2rem",
+			gap: "10px",
 
 			"img":
 			{
 				width: "30px",
 				height: "30px",
 			},
+
+			"p": {
+				marginBottom: "0",
+			},
+		},
+
+		".more_info_text": {
+			width: "100%",
 		},
 
 

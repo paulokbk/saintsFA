@@ -1,13 +1,12 @@
 import React from "react"
 import { StyledContentHome } from "./styles"
-import CardHome from "../CardsHome"
 
 export default function ContentHome(props) {
 
     return (
         <StyledContentHome>
             <div className="long-line" />
-                <div className="title">
+                <div className="title-content-home">
                     <img src={`assets/${props.icon}`} alt="football" />
                     <p>{props.title}</p>
                 </div>

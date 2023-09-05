@@ -105,6 +105,7 @@ export const StyledHome = styled("div", {
 			gap: "0",
 			height: "auto",
 			marginBottom: "50px",
+			marginTop: "50px",
 		},
 		".home_image": {
 			display: "flex",
@@ -114,6 +115,11 @@ export const StyledHome = styled("div", {
 		},
 		".button-about": {
 			width: "100%",
+		},
+
+		".content_image": {
+			width: "100%",
+			padding: "50px",
 		},
 	}
 

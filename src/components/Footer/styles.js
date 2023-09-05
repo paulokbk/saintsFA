@@ -74,7 +74,7 @@ export const StyledFooter = styled("footer", {
 
 	".line": {
 		width: "400px",
-		height: "2px",
+		height: "1px",
 		backgroundColor: "rgba(255, 255, 255, 0.19)",
 		margin: "0 auto",
 		marginBottom: "20px",
@@ -119,6 +119,13 @@ export const StyledFooter = styled("footer", {
 		fontSize: "14px",
 		fontWeight: "bold",
 		margin: "0 auto",
+	},
+
+	"@media (max-width: 780px)": {
+		".modalidades": {
+			gap: "20px",
+			
+		},
 	},
 
 })

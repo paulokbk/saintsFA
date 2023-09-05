@@ -66,6 +66,7 @@ export const StyledHeader = styled("header", {
 		display: "flex",
 		alignItems: "center",
 		justifyContent: "center",
+		height: "50px",
 
 
 		"&:hover": {
@@ -109,9 +110,6 @@ export const StyledHeader = styled("header", {
 			alignItems: "center",
 		},
 
-		".dropdown-text":{
-			height: "50px",
-		},
 	}
 
 

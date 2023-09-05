@@ -64,6 +64,7 @@ export const StyledHome = styled("div", {
 		},
 		"p": {
 			fontSize: "1.3rem",
+			marginBottom: "30px",
 		},
 	},
 
@@ -82,13 +83,12 @@ export const StyledHome = styled("div", {
 		border: "none",
 		borderRadius: "5px",
 		fontFamily: "Empera",
-		fontSize: "1.2rem",
+		fontSize: "1.3rem",
 		padding: "10px",
 		cursor: "pointer",
 		transition: "all 0.2s ease-in-out",
 		boxSizing: "border-box",
 		border: "1px solid #fff",
-		marginTop: "20px",
 
 		"&:hover": {
 			backgroundColor: "#fff",
